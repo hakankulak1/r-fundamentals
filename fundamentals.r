@@ -38,3 +38,15 @@ data$difference_variance <- data$value - variance
 
 #Print the data
 print(data) 
+
+#calculate standard deviation
+standard_deviation <- sd(data$value)
+
+#Create a new column with the standard deviation
+data$standard_deviation <- standard_deviation
+
+#Create a new column with the difference
+data$difference_standard_deviation <- data$value - standard_deviation
+
+#Print the data
+print(data) 
