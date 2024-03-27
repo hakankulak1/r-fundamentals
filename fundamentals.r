@@ -15,3 +15,14 @@ data$difference <- data$value - average
 #Print the data
 print(data)
  
+ #Calculate median
+median <- median(data$value)
+
+#Create a new column with the median
+data$median <- median
+
+#Create a new column with the difference
+data$difference_median <- data$value - median
+
+#Print the data
+print(data)
