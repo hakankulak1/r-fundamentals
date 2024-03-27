@@ -26,3 +26,15 @@ data$difference_median <- data$value - median
 
 #Print the data
 print(data)
+
+#calculate variance
+variance <- var(data$value)
+
+#Create a new column with the variance
+data$variance <- variance
+
+#Create a new column with the difference
+data$difference_variance <- data$value - variance
+
+#Print the data
+print(data) 
