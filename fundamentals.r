@@ -63,3 +63,15 @@ print(sum_vector)
 #print the type of data and vector
 print(class(data))
 print(class(vector)) 
+
+#create a matrix
+matrix <- matrix(c(3, 12, 5, 18, 45, 6, 7, 8, 9, 10), nrow=5, ncol=2)
+
+#cbind
+cbind(data, matrix)
+
+#rbind
+rbind(data, matrix)
+
+#Create a new column with the sum of the matrix
+data$sum_matrix <- rowSums(matrix) 
