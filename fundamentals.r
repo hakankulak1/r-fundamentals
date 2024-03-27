@@ -50,3 +50,12 @@ data$difference_standard_deviation <- data$value - standard_deviation
 
 #Print the data
 print(data) 
+
+#create a vector
+vector <- c(3, 12, 5, 18, 45, 6, 7, 8, 9, 10)
+
+#calculate the sum of the vector
+sum_vector <- sum(vector)
+
+#print the sum of the vector
+print(sum_vector) 
