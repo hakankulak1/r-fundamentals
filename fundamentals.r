@@ -105,3 +105,16 @@ list <- rev(list)
 
 #print the list
 print(list) 
+
+#create an array
+array <- array(c(3, 12, 5, 18, 45, 6, 7, 8, 9, 10), dim=c(2, 5))
+
+#check if an item exists
+print(5 %in% array)
+
+#Iterate over the array
+for (i in 1:2) {
+  for (j in 1:5) {
+    print(array[i, j])
+  }
+} 
