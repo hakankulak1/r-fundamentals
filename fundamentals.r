@@ -59,3 +59,7 @@ sum_vector <- sum(vector)
 
 #print the sum of the vector
 print(sum_vector) 
+
+#print the type of data and vector
+print(class(data))
+print(class(vector)) 
