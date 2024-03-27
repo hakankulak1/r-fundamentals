@@ -78,3 +78,30 @@ matrix <- rbind(matrix, c(1, 2, 3, 4, 5, 6))
 
 #print the matrix
 print(matrix) 
+
+#create a list
+list <- list(3, 12, 5, 18, 45, 6, 7, 8, 9, 10)
+
+#length
+print(length(list))
+
+#names
+print(names(list))
+
+#append
+list <- append(list, 11)
+
+#print the list
+print(list)
+
+#remove
+list <- list[-1]
+
+#print the list
+print(list)
+
+#reverse
+list <- rev(list)
+
+#print the list
+print(list) 
