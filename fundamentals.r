@@ -65,13 +65,16 @@ print(class(data))
 print(class(vector)) 
 
 #create a matrix
-matrix <- matrix(c(3, 12, 5, 18, 45, 6, 7, 8, 9, 10), nrow=5, ncol=2)
+matrix <- matrix(c(3, 12, 5, 18, 45, 6, 7, 8, 9, 10), nrow=2, ncol=5)
 
-#cbind
-cbind(data, matrix)
+#cbind the matrix
+matrix <- cbind(matrix, c(1, 2))
 
-#rbind
-rbind(data, matrix)
+#print the matrix
+print(matrix)
 
-#Create a new column with the sum of the matrix
-data$sum_matrix <- rowSums(matrix) 
+#rbind the matrix
+matrix <- rbind(matrix, c(1, 2, 3, 4, 5, 6))
+
+#print the matrix
+print(matrix) 
