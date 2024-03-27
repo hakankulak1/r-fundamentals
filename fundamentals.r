@@ -118,3 +118,15 @@ for (i in 1:2) {
     print(array[i, j])
   }
 } 
+
+#create a factor
+factor <- factor(c("A", "B", "C", "A", "B", "C"))
+
+#levels
+print(levels(factor))
+
+#lenght
+print(length(factor))
+
+#access the first element
+print(factor[1]) 
